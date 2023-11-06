@@ -50,3 +50,41 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore VSCode settings and workspace files
+.vscode/
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore build artifacts
+dist/
+out/
+
+# Ignore hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and debugging files
+npm-debug.log
+yarn-error.log
+debug.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore personal and machine-specific files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/extensionRecommendations
+.vscode/snippetSuggestions
+
+# Ignore workspace-specific settings
+.code-workspace
+
+# Ignore TypeScript declaration files
+*.d.ts
