@@ -6,10 +6,10 @@ int main () {
 
     int firstNum, SecondNum, result;
 
-    printf("Print first number : \n");
+    printf("Enter first number : \n");
     scanf("%d", &firstNum);
 
-    printf("Print Second number : \n");
+    printf("Enter Second number : \n");
     scanf("%d", &SecondNum);
 
     result = firstNum + SecondNum;
