@@ -5,6 +5,7 @@
 int main(){
 	int row, col;
 	
+    printf("Enter row col and Matrix");
 	scanf("%d", &row);
 	scanf("%d", &col);
 	
