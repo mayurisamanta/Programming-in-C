@@ -11,10 +11,13 @@ int main(){
 	printf("Enter second value: ");
 	scanf ("%d", &y);
 	
-	int temp = x;
-	x = y;
-	y = temp;
+	int* a = &x;
+	int* b = &y;
 	
-	printf("x = %d y = %d \n", x, y);
+	int temp = *a;
+    *a = *b;
+    *b = temp;
+	
+	printf("x = %d y = %d", x, y);
     return 0;
 }
